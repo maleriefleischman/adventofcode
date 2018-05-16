@@ -29,7 +29,9 @@ var horz = 1;
 *
 *Since the keypad is only 3x3 the only possible values for the vert,horz variables are (0 , 1, 2)
 *
-*If vert= 0 the coressponding keynumber's are 1,2,3, if horz=0 the coressponding key numbers are 1,4,7 
+*If vert= 0 the coressponding keynumber's are any of the numbers in the top row (1,2,3) 
+*if horz=0 the coressponding keynumbers are any of the numbers in the first column (1,4,7) 
+*
 */
 for(j=0;j<instructions.length;j++){
 	for(k=0;k<instructions[j].length;k++){
